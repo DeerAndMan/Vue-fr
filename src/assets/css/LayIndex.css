@@ -1,0 +1,31 @@
+#homeLayout {
+    min-height: 100vh;
+    overflow: auto;
+}
+/* .navList{
+    position: fixed !important;
+    height: 100vh;
+} */
+#homeLayout .logo{
+    height: 32px;
+    background: rgba(255, 255, 255, .2);
+    margin: 16px;
+    overflow: hidden;
+}
+.homeLayout-header{
+    padding: 0 24px;
+    font-size: 18px;
+    background: #fff !important;
+}
+.homeLayout-content{
+    margin: 1.5vh 10px 0 10px;
+    padding: 10px;
+    background: #fff;
+    /* height: 95vh;  */
+}
+.homeLayout-footer{
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
